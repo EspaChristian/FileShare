@@ -15,3 +15,31 @@
    ```bash
    git clone https://github.com/your-username/file-share.git
    cd file-share
+
+2. **Create and activate a virtual environment:**
+
+   ```bash
+    # On Windows
+    python -m venv env
+    .\env\Scripts\activate
+
+    # On macOS/Linux
+    python3 -m venv env
+    source env/bin/activate
+
+
+3. **Install the dependencies:**
+
+   ```bash
+    pip install -r requirements.txt
+
+5. **Apply migrations:**
+
+   ```bash
+    python manage.py makemigrations FileShare_App
+    python manage.py migrate
+
+6. **Run the development server:**
+
+   ```bash
+    python manage.py runserver
