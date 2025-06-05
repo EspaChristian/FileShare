@@ -12,9 +12,9 @@
 
 Here is the file upload page:
 
-![Alt text](Screenshot_2025-06-05_12_51_16.png)
+![Screenshot](Screenshot_2025-06-05_12_51_16.png)
 
-![Alt text](Screenshot_2025-06-05_12_51_27.png)
+![Screenshot](Screenshot_2025-06-05_12_51_27.png)
 
 ## Installation
 
