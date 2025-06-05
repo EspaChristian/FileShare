@@ -1,0 +1,22 @@
+{% extends "FileShare_App/base.html" %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <h2>Upload a File</h2>
+    <form method="post" enctype="multipart/form-data" class="mt-4">
+        {% csrf_token %}
+        <div class="mb-3">
+            {{ form.title.label_tag }}
+            {{ form.title }}
+        </div>
+        <div class="mb-3">
+            {{ form.file.label_tag }}
+            {{ form.file }}
+        </div>
+        <button onclick="window.location.href='{% url 'home' %}'" class="btn btn-primary">Back</button>
+        <button type="submit" class="btn btn-primary">Upload</button>
+    </form>
+</div>
+
+{% endblock %}

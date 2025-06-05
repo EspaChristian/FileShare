@@ -1,0 +1,39 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environment files
+.env
+*.env
+
+# Media files (user uploads)
+media/
+
+# Static file collection (optional if using collectstatic)
+staticfiles/
+static/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Mac/Linux/Windows system files
+.DS_Store
+Thumbs.db
+
+# pip dependency logs
+pip-log.txt
+
+# virtual environments
+venv/
+env/
+ENV/
