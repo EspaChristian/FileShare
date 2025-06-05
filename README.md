@@ -8,6 +8,14 @@
 - Download shared files directly
 - Lightweight and easy to set up
 
+## Screenshot
+
+Here is the file upload page:
+
+![Login Page](Screenshot_2025-06-05_12_51_16.png)
+
+![File Upload Page](Screenshot_2025-06-05_12_51_27.png)
+
 ## Installation
 
 1. **Clone the repository:**
