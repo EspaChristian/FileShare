@@ -12,10 +12,6 @@
 
 Here is the file upload page:
 
-![Screenshot](Screenshot_2025-06-05_12_51_16.png)
-
-![Screenshot](Screenshot_2025-06-05_12_51_27.png)
-
 ## Installation
 
 1. **Clone the repository:**
