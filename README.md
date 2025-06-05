@@ -11,6 +11,7 @@
 ## Screenshot
 
 Here is the log in page:
+
 ![image alt](https://github.com/EspaChristian/FileShare/blob/main/screenshots/Screenshot_2025-06-05_12_51_16.png)
 
 Here is the file upload page:
