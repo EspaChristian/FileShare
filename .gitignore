@@ -16,10 +16,6 @@ db.sqlite3-journal
 # Media files (user uploads)
 media/
 
-# Static file collection (optional if using collectstatic)
-staticfiles/
-static/
-
 # VSCode settings
 .vscode/
 
