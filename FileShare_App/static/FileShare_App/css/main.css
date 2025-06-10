@@ -58,9 +58,6 @@ body {
     background-color: #fff;
     color: #333;
     border-radius: 8px !important;
-    top: 0 !important;
-    position: sticky !important;
-    z-index: 1 !important;
 }
 
 .dataTables_filter input:focus {
@@ -71,6 +68,9 @@ body {
 /* Align the search bar to the right */
 .dataTables_filter {
     text-align: right;
+    top: 0 !important;
+    position: sticky !important;
+    z-index: 1 !important;
     margin-bottom: 15px !important;
     margin-top: -40px !important;
 }
@@ -167,6 +167,7 @@ th {
 
 
 .white-spacer{
+    background-color: #fff;
     height: 50px;
     width: 100%;
     display: flex;
