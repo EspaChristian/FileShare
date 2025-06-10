@@ -39,15 +39,22 @@ body {
     overflow-y: auto;
 }
 
+.home-container h1 {
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
 /* Search */
 
 .dataTables_filter input {
-    padding: 10px 14px;
+    padding: 10px 14px !important;
     font-size: 16px;
     border: 1px solid #ccc;
     outline: none;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     width: 250px;
+    height: 45px !important;
     background-color: #fff;
     color: #333;
     border-radius: 8px !important;
@@ -64,7 +71,8 @@ body {
 /* Align the search bar to the right */
 .dataTables_filter {
     text-align: right;
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
+    margin-top: -40px !important;
 }
 
 
@@ -88,6 +96,9 @@ body {
     font-size: 1.4rem;
     font-weight: bold;
     color: #7f5af0;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .navbar .nav-links {
@@ -113,8 +124,8 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     padding: 2rem;
     margin: 2rem auto;
-    width: 95%;
-    max-width: 900px;
+    width: 100%;
+    max-width: 1300px;
 }
 
 
@@ -124,11 +135,6 @@ h1 {
     text-align: center;
 }
 
-h1 {
-    color: #7f5af0;
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
 
 table {
     width: 100%;
@@ -165,7 +171,6 @@ th {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 0;
 
     position: sticky;
     top: 0;
@@ -253,6 +258,11 @@ th {
 
 /* Upload Form */
 
+.upload-container {
+    width: 100%;
+    max-width: 500px;
+}
+
 .upload-form .form-group {
     margin-bottom: 20px;
 }
@@ -281,6 +291,11 @@ th {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+}
+
+.button-group a,
+.button-group button {
+    font-weight: 600;
 }
 
 .upload-btn,
